@@ -20,3 +20,21 @@ x = 'xyz'
 
 
 
+mama = False
+coin = 'head'
+
+if mama is not True :
+   print("mama is not ture")
+   if coin == 'tail':
+      print("batting")
+   else:
+      print('bolling')
+      if 2>1:
+         print('two is gretherthn one')
+         if 20 % 2 == 0:
+            print("20 is event nuber")   
+
+        
+   
+  
+else:print("mama is true")   
