@@ -31,7 +31,7 @@ if mama is not True :
       print('bolling')
       if 2>1:
          print('two is gretherthn one')
-         if 20 % 2 == 0:
+         if 20 % 2 == 0 and 10 % 2 == 0:
             print("20 is event nuber")   
 
         
