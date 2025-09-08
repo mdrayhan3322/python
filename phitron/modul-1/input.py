@@ -14,4 +14,4 @@ first_money_int = int(first_money)
 second_money_int = int(second_money)
 total_int_money = first_money_int + second_money_int
 print(total_int_money)
-# print("total money I got : ",total)
+print("total money I got : ",total)

@@ -2,7 +2,7 @@
 import turtle as t
 t.speed(0)
 t.bgcolor('black')
-t.pencolor('blue')
+t.pencolor('hotpink')
 def square(x, y):
     for j in range(4):
         t.forward(x)

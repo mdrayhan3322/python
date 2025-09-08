@@ -1,5 +1,5 @@
 
 import calendar
-yy = 2050
+yy = 300
 mm = 1
 print(calendar.month(yy,mm))
