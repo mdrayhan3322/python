@@ -9,7 +9,9 @@ ans = sum(29,29,2)
 print(ans)
 
  """
-# agrs
+# ---------------------
+""" 
+# args
 def a(*number):
     print(number)
     sum = 0
@@ -18,3 +20,14 @@ def a(*number):
     return sum
 total = a(3,3,5,3,32) 
 print(total) 
+
+ """
+# --------------------
+
+def odd(num1,num2, *numbers):
+    print(num1,numbers)
+
+    for sin_valu in numbers:
+        print(sin_valu)
+        
+odd(10,2,3,4,13,54,63)
