@@ -19,8 +19,19 @@ print(name)
 
 # --------------
 
+""" 
 def a(last,title,*first):
     name = f"{title} {last} {first}"
     return name
 name = a(last="rayhan",title="eng")
+print(name)
+
+ """
+# -----------------
+def b(title,**addition):
+    name =f"{title}"
+    return name
+
+name =  b(first="md",title="eng",addition="hujur")
+
 print(name)
